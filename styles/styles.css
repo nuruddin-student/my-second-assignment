@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{font-family: "Inter", sans-serif;}
+
+/* default styles */
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    
+}
+body{
+    background-color: rgb(51, 51, 51);
+}
+/* navbar */
+.container{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    
+
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    line-height: normal;
+    color: rgb(230, 83, 60, 100);
+    font-style: italic;
+}
+.home{
+    border: 1px solid tomato;
+    border-radius: 40px;
+    padding: 5px 8px;
+    background-color: tomato;
+}
+.not-home{
+    border: 1px solid transparent;
+    border-radius: 40px;
+    padding: 5px 8px;
+
+}
+
+.nav-option{
+    color: rgb(255, 255, 255, 100);
+    display: flex;
+    gap: 4rem;
+    font-size: 20px;
+    border: 1px solid rgb(182, 175, 174);
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+/* explore container */
+.explore-container{
+    width: 50%;  
+    
+}
+h3{
+    font-weight: 1000;
+    font-size: 80px;
+    font: Miama;
+    width: 520px;
+    margin-bottom: 2rem;
+}
+.btn-club{
+    width: 200px;
+    height: 50px;
+    margin-top: 2rem;
+    border: 1px solid tomato;
+    border-radius: 40px;
+    padding: 5px 8px;
+    background-color: tomato;
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn-app{
+    width: 200px;
+    height: 50px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    padding: 5px 8px;
+    background-color: rgb(5, 5, 5);
+    font-size: 20px;
+    font-weight: 500;
+}
+.img-explore{
+
+}
+.container-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.card{
+    
+    position: relative;
+    width: 50%;
+ 
+}
+.one{
+    background-color: rgb(255, 255, 255, 0.1);
+    position: absolute;  
+    top: 50px;
+    right: 250px;
+    border: 1px solid rgb(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.two{
+    background-color: rgb(255, 255, 255, 0.1);
+    border: 1px solid rgb(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 400px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.fa-youtube{
+    font-size: 50px;
+    color: rgb(235, 55, 10);
+}
+
+/* habits-section */
+
+.habits{
+    width: 90%;
+    height: 100px;
+    margin: 10rem 0;
+    text-align: center;
+}
+h1{
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 1rem;
+}
+.habits-img{
+    display: flex;
+    justify-content: space-between;
+    margin: 10rem 15rem;
+}
+.habits-img, .h4{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+.habits-img, p{
+    font-weight: 300;
+    font-size: 15px;
+    color: antiquewhite;
+}
+.img-one, .img-two, .img-three, .img-four{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255, 0.1);
+}
+
+/* run-section */
+
+.run-container{
+    gap: 15rem;
+    width: 70%;
+    display: flex;
+    padding: 3rem;
+    border-radius: 20px;
+    background-color: rgb(34, 34, 34)!important;
+    margin: 5rem 18rem;
+    z-index: 10;
+}
+.run{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+/* bmi-section */
+
+.bmi{
+    width: 90%;
+    margin: 2rem 0;
+    text-align: center;
+}
+.bmi-container{
+    display: flex;
+}
+.bmi-box{
+    border: 1px solid red;
+}
+.calculate-box{
+    border: 1px solid red;
+}
+
+.bmi-title{
+    margin-top: 6rem;
+    margin-left: 8rem;
+    font-weight: 800;
+    font-size: 25px;
+
+}
+.table{
+    border-collapse: collapse;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+}
+
+.table td{
+    border: 1px solid rgb(134, 133, 131);
+    padding: 18px;
+    color: antiquewhite;
+}
+.input-text{
+    border: 1px solid red;
+}
+.text{
+    display: flex;
+}
+
+.height{
+    background-color: rgb(110, 112, 112);
+    width: 50%;
+    height: 50px;
+    
+}
+.select{
+    width: 100%;
+    height: 50px;
+    border: 1px solid rebeccapurple;
+    background-color: rgb(110, 112, 112);
+}
+h4{
+    font-weight: 900;
+    font-size: 30px;
+    
+}
