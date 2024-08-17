@@ -267,7 +267,7 @@ h4{
 
 /* team-section */
 .team-img{
-    margin: 5rem 25rem;
+    margin: 5rem 15rem;
     display: flex;
     width: 320px;
     height: 250px;
@@ -276,8 +276,23 @@ h4{
 .trainer-div{
     border: 2px solid red;
 }
-.trainer{
-    
+
+/* footer-section */
+.footer-section{
+    background-color: rgb(37, 37, 37);
+}
+
+.footer{
+   display: flex;
+   
+}
+.footer-container{
+    margin: 5rem 15rem;
+}
+.copyright{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 
