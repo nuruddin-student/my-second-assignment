@@ -194,7 +194,9 @@ h1{
 }
 
 /* bmi-section */
-
+.bmi-section{
+    background-color: rgb(36, 35, 35);
+}
 .bmi{
     width: 90%;
     margin: 2rem 0;
@@ -202,13 +204,21 @@ h1{
 }
 .bmi-container{
     display: flex;
+    margin: 5rem 15rem;
+    gap: 10rem;
+    
 }
 .bmi-box{
-    border: 1px solid red;
+    
 }
-.calculate-box{
-    border: 1px solid red;
+.calculate-box{ 
+    margin-top: 6rem;
+    width: 500px;
+    height: 350px;
+    left: 5rem;
+    top: 50px;
 }
+
 
 .bmi-title{
     margin-top: 6rem;
@@ -230,7 +240,7 @@ h1{
     color: antiquewhite;
 }
 .input-text{
-    border: 1px solid red;
+    margin-top: 2rem;
 }
 .text{
     display: flex;
@@ -240,16 +250,34 @@ h1{
     background-color: rgb(110, 112, 112);
     width: 50%;
     height: 50px;
-    
+    color: white;
 }
+
 .select{
     width: 100%;
     height: 50px;
-    border: 1px solid rebeccapurple;
     background-color: rgb(110, 112, 112);
 }
 h4{
+    margin-bottom: 2rem;
     font-weight: 900;
     font-size: 30px;
     
 }
+
+/* team-section */
+.team-img{
+    margin: 5rem 25rem;
+    display: flex;
+    width: 320px;
+    height: 250px;
+    gap: 25px;
+}
+.trainer-div{
+    border: 2px solid red;
+}
+.trainer{
+    
+}
+
+
