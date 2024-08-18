@@ -267,15 +267,55 @@ h4{
 
 /* team-section */
 .team-img{
-    margin: 5rem 15rem;
     display: flex;
-    width: 320px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.bell img{
+    width: 300px;
     height: 250px;
-    gap: 25px;
 }
+.will img{
+    width: 300px;
+    height: 250px;
+}
+.steward img{
+    width: 300px;
+    height: 250px;
+}
+.russell img{
+    width: 300px;
+    height: 250px;
+}
+.fisher img{
+    width: 300px;
+    height: 250px;
+}
+.wdbb img{
+    width: 300px;
+    height: 250px;
+}
+
 .trainer-div{
-    border: 2px solid red;
+    background-color: rgb(37, 37, 37);
+    margin: 5rem 15rem;
+    padding: 3rem;
+    border-radius: 15px;    
 }
+.bell, .will, .steward{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 270px;
+}
+.russell, .fisher, .wdbb{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 270px;
+}
+
 
 /* footer-section */
 .footer-section{
