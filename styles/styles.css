@@ -198,6 +198,7 @@ h1{
     background-color: rgb(36, 35, 35);
 }
 .bmi{
+    padding-top: 5rem;
     width: 90%;
     margin: 2rem 0;
     text-align: center;
@@ -320,6 +321,7 @@ h4{
 /* footer-section */
 .footer-section{
     background-color: rgb(37, 37, 37);
+    padding-bottom: 5rem;
 }
 
 .footer{
@@ -333,6 +335,7 @@ h4{
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 3rem;
 }
 
 
